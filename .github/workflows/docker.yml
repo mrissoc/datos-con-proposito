@@ -1,0 +1,46 @@
+name: Docker
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Construir la imagen
+        run: docker compose build
+
+      - name: Pruebas dentro del contenedor
+        run: docker run --rm datos-con-proposito
+
+      - name: Levantar las aplicaciones
+        run: docker compose up -d
+
+      - name: Comprobar que responden
+        run: |
+          for intento in $(seq 1 30); do
+            curl -sf http://localhost:8000/api/salud && curl -sf http://localhost:8010/api/salud && break
+            sleep 2
+          done
+          curl -sf http://localhost:8000/api/salud
+          curl -sf http://localhost:8000/api/red | grep -q '"nodos"'
+          curl -sf http://localhost:8000/web/ | grep -q 'Averías en la red'
+          curl -sf http://localhost:8010/ | grep -q 'Biblioteca técnica'
+          curl -sf http://localhost:8010/datos/catalogo.json | grep -q '"items"'
+          curl -sf -u demo:demo http://localhost:8090/sap/opu/odata/sap/ZPM_ACTIVOS_SRV/Equipment | grep -q '"results"'
+
+      - name: Sincronizar averías con el SAP simulado
+        run: |
+          docker compose run --rm sincronizar-sap | tee salida.txt
+          grep -q "Avisos creados: 3" salida.txt
+
+      - name: Registros si algo falló
+        if: failure()
+        run: docker compose logs
+
+      - name: Apagar
+        if: always()
+        run: docker compose down -v

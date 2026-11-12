@@ -1,0 +1,12 @@
+.git
+.github
+.venv
+**/__pycache__
+**/.pytest_cache
+.env
+*.db-journal
+01-pipeline-documental-ia/_demo
+05-correos-masivos-graph/salida
+03-averias-grafos-sql/datos/averias.db
+05-correos-masivos-graph/datos/capacitacion.db
+06-etl-indicadores-powerbi/indicadores.db

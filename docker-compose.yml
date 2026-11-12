@@ -1,0 +1,58 @@
+# Levanta las aplicaciones del portafolio con un solo comando:
+#
+#   docker compose up
+#
+#   Averías sobre grafo en SQL   http://localhost:8000      (documentación de la API en /docs)
+#   Biblioteca técnica           http://localhost:8010
+#   Simulador de SAP Gateway     http://localhost:8090/sap/opu/odata/sap/ZPM_ACTIVOS_SRV/   (usuario demo, clave demo)
+#
+# Sincronizar las averías con el SAP simulado (con las aplicaciones arriba):
+#
+#   docker compose run --rm sincronizar-sap
+#
+# La búsqueda por IA de la biblioteca se activa si ANTHROPIC_API_KEY está definida
+# en el entorno o en un archivo .env junto a este. Sin ella, la página usa sus reglas locales.
+
+# Todos los servicios usan la misma imagen; Docker la construye una vez y la reutiliza.
+x-imagen: &imagen
+  build: .
+  image: datos-con-proposito
+
+services:
+  averias:
+    <<: *imagen
+    working_dir: /app/03-averias-grafos-sql
+    command: ["python", "-m", "averias", "--host", "0.0.0.0", "--puerto", "8000"]
+    ports: ["8000:8000"]
+    volumes:
+      - datos-averias:/app/03-averias-grafos-sql/datos
+
+  biblioteca:
+    <<: *imagen
+    depends_on: [averias]
+    working_dir: /app/02-biblioteca-web
+    command: ["python", "-m", "biblioteca", "--host", "0.0.0.0", "--puerto", "8010"]
+    ports: ["8010:8010"]
+    environment:
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+
+  sap:
+    <<: *imagen
+    depends_on: [averias]
+    working_dir: /app/04-integracion-sap
+    command: ["python", "-m", "integracion_sap", "simulador", "--host", "0.0.0.0", "--puerto", "8090"]
+    ports: ["8090:8090"]
+
+  sincronizar-sap:
+    <<: *imagen
+    profiles: [herramientas]
+    depends_on: [averias, sap]
+    working_dir: /app/04-integracion-sap
+    command: ["python", "-m", "integracion_sap", "sincronizar",
+              "--bd", "/app/03-averias-grafos-sql/datos/averias.db",
+              "--url", "http://sap:8090/sap/opu/odata/sap/ZPM_ACTIVOS_SRV"]
+    volumes:
+      - datos-averias:/app/03-averias-grafos-sql/datos
+
+volumes:
+  datos-averias:

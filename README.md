@@ -10,6 +10,7 @@ Construyo procesos que ordenan, integran y aprovechan los datos de una organizac
 Los proyectos de este repositorio son reconstrucciones de trabajo real, hechas con **datos ficticios** para poder mostrarlas. Cada uno se puede ejecutar y tiene pruebas automatizadas: **129 pruebas** en total, que pasan con Python 3.9 y 3.12.
 
 [![Pruebas](https://github.com/mrissoc/datos-con-proposito/actions/workflows/pruebas.yml/badge.svg)](https://github.com/mrissoc/datos-con-proposito/actions/workflows/pruebas.yml)
+[![Docker](https://github.com/mrissoc/datos-con-proposito/actions/workflows/docker.yml/badge.svg)](https://github.com/mrissoc/datos-con-proposito/actions/workflows/docker.yml)
 
 ## Demos en vivo
 
@@ -76,6 +77,22 @@ flowchart TB
 Cómo se ponen en producción las aplicaciones web con Microsoft Entra ID, roles por grupo y credenciales protegidas en el servidor: [docs/despliegue.md](docs/despliegue.md).
 
 ## Cómo ejecutar
+
+### Con Docker (sin instalar Python)
+
+```bash
+docker compose up
+```
+
+| Aplicación | Dirección |
+|---|---|
+| Averías sobre grafo en SQL | http://localhost:8000 (documentación de la API en `/docs`) |
+| Biblioteca técnica | http://localhost:8010 |
+| Simulador de SAP Gateway | http://localhost:8090/sap/opu/odata/sap/ZPM_ACTIVOS_SRV/ (usuario `demo`, clave `demo`) |
+
+Con las aplicaciones arriba, `docker compose run --rm sincronizar-sap` envía las averías abiertas al SAP simulado. Para las pruebas dentro del contenedor: `docker run --rm datos-con-proposito`.
+
+### Con Python
 
 ```bash
 python -m venv .venv

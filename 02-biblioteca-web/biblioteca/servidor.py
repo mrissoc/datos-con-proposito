@@ -156,5 +156,11 @@ def _validar(filtros: dict, esquema_filtros: dict) -> dict:
 
 
 def main() -> None:
+    import argparse
+
     import uvicorn
-    uvicorn.run("biblioteca.servidor:crear_app", factory=True, host="127.0.0.1", port=8010)
+    parser = argparse.ArgumentParser(description="Servidor de la biblioteca técnica")
+    parser.add_argument("--host", default="127.0.0.1", help="0.0.0.0 para aceptar conexiones de otros equipos")
+    parser.add_argument("--puerto", type=int, default=8010)
+    args = parser.parse_args()
+    uvicorn.run("biblioteca.servidor:crear_app", factory=True, host=args.host, port=args.puerto)

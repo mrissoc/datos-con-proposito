@@ -26,6 +26,7 @@ def main() -> None:
     comandos = parser.add_subparsers(dest="comando", required=True)
 
     simulador = comandos.add_parser("simulador", help="levanta el simulador de SAP Gateway")
+    simulador.add_argument("--host", default="127.0.0.1", help="0.0.0.0 para aceptar conexiones de otros equipos")
     simulador.add_argument("--puerto", type=int, default=8090)
 
     sincro = comandos.add_parser("sincronizar", help="vincula equipos y envía avisos de avería")
@@ -40,7 +41,7 @@ def main() -> None:
     if args.comando == "simulador":
         import uvicorn
         print(f"Simulador SAP en http://127.0.0.1:{args.puerto}{RUTA_SERVICIO}/  (usuario demo, clave demo)")
-        uvicorn.run(crear_simulador(), host="127.0.0.1", port=args.puerto, log_level="warning")
+        uvicorn.run(crear_simulador(), host=args.host, port=args.puerto, log_level="warning")
         return
 
     if not args.bd.exists():
