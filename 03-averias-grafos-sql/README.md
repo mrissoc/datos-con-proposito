@@ -1,5 +1,7 @@
 # Averías sobre una red de activos modelada como grafo en SQL
 
+**[Ver la demo en vivo](https://mrissoc.github.io/datos-con-proposito/03-averias-grafos-sql/web/)**
+
 Aplicación para registrar averías en una red de agua potable y responder, con SQL, la pregunta que importa en operación: **¿a quién deja sin servicio esta falla?**
 
 ![Esquema de la red con averías activas](../docs/capturas/averias-esquema.png)

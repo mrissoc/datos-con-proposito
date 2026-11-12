@@ -1,5 +1,7 @@
 # Biblioteca técnica con búsqueda asistida por IA
 
+**[Ver la demo en vivo](https://mrissoc.github.io/datos-con-proposito/02-biblioteca-web/)**
+
 Aplicación web para encontrar planos y documentos de ingeniería. Se alimenta del catálogo que produce el [pipeline documental](../01-pipeline-documental-ia) y está organizada con una taxonomía de estilo bibliotecario: disciplina, tipo de plano o documento, proyecto, instalación y año.
 
 ![Búsqueda en lenguaje natural](../docs/capturas/biblioteca-busqueda.png)

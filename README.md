@@ -11,6 +11,13 @@ Los proyectos de este repositorio son reconstrucciones de trabajo real, hechas c
 
 [![Pruebas](https://github.com/mrissoc/datos-con-proposito/actions/workflows/pruebas.yml/badge.svg)](https://github.com/mrissoc/datos-con-proposito/actions/workflows/pruebas.yml)
 
+## Demos en vivo
+
+Funcionan directo en el navegador, sin instalar nada:
+
+- **[Averías sobre una red modelada como grafo](https://mrissoc.github.io/datos-con-proposito/03-averias-grafos-sql/web/)**: elige un nodo o un tramo, simula su falla y mira qué sectores quedan sin agua. Cada vista muestra la consulta SQL que la calcula.
+- **[Biblioteca técnica](https://mrissoc.github.io/datos-con-proposito/02-biblioteca-web/)**: busca escribiendo, por ejemplo, "planos eléctricos de la estación de bombeo sur desde 2015".
+
 ## Proyectos
 
 | Proyecto | Qué resuelve | Tecnologías |
