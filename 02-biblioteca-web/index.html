@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Biblioteca técnica de planos y documentos</title>
+  <meta name="description" content="Búsqueda de planos y documentos de ingeniería por taxonomía y en lenguaje natural.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cg fill='none' stroke='%232a78d6' stroke-width='2.5'%3E%3Crect x='5' y='4' width='22' height='24' rx='2'/%3E%3Cpath d='M10 11h12M10 16h12M10 21h7'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="barra">
+    <div class="marca">
+      <svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="5" y="4" width="22" height="24" rx="2"/><path d="M10 11h12M10 16h12M10 21h7" stroke-linecap="round"/>
+      </svg>
+      <div>
+        <h1>Biblioteca técnica</h1>
+        <p>Planos y documentos de una red de agua potable de ejemplo, con datos ficticios</p>
+      </div>
+    </div>
+    <span id="modo" class="chip" hidden></span>
+  </header>
+
+  <main>
+    <form id="buscador" class="buscador" role="search">
+      <label for="consulta">Busca por código, título o con tus palabras</label>
+      <div class="buscador-fila">
+        <input id="consulta" type="search" autocomplete="off"
+               placeholder="Por ejemplo: planos eléctricos de la estación de bombeo sur desde 2015">
+        <button class="boton" type="submit">Buscar</button>
+      </div>
+      <div id="interpretacion" class="interpretacion" aria-live="polite"></div>
+    </form>
+
+    <div class="pestanas" role="tablist" aria-label="Colecciones">
+      <button role="tab" id="tab-plano" aria-selected="true">Planos</button>
+      <button role="tab" id="tab-documento" aria-selected="false">Documentos</button>
+      <button role="tab" id="tab-instalacion" aria-selected="false">Instalaciones</button>
+    </div>
+
+    <div class="columnas">
+      <aside id="facetas" class="facetas" aria-label="Filtros"></aside>
+      <section class="resultados" aria-live="polite">
+        <p id="conteo" class="conteo"></p>
+        <ul id="lista" class="lista"></ul>
+        <button id="mas" class="boton secundario" hidden>Mostrar más resultados</button>
+      </section>
+      <aside id="detalle" class="detalle" aria-label="Detalle"></aside>
+    </div>
+  </main>
+
+  <footer class="pie">
+    <span id="resumen"></span>
+    El catálogo lo genera el pipeline documental: inventario, clasificación por nombre, detección de copias y lectura de cajetines por IA.
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

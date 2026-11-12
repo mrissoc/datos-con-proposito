@@ -1,0 +1,9 @@
+﻿codigo,nombre,unidad_medida
+dolar,Dólar observado,Pesos
+euro,Euro,Pesos
+ipc,Indice de Precios al Consumidor (IPC),Porcentaje
+libra_cobre,Libra de Cobre,Dólar
+tasa_desempleo,Tasa de desempleo,Porcentaje
+tpm,Tasa Política Monetaria (TPM),Porcentaje
+uf,Unidad de fomento (UF),Pesos
+utm,Unidad Tributaria Mensual (UTM),Pesos

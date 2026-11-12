@@ -1,0 +1,33 @@
+{
+  "descripcion": "Reglas de perfilado: a qué categoría pertenece cada extensión y qué se hace con cada categoría.",
+  "equivalencias": {"jpeg": "jpg", "tiff": "tif", "htm": "html"},
+  "categorias": {
+    "cad": ["dwg", "dxf", "dgn"],
+    "pdf": ["pdf"],
+    "ofimatica": ["doc", "docx", "xls", "xlsx", "xlsm", "ppt", "pptx", "rtf", "odt", "ods", "txt", "csv"],
+    "imagen": ["jpg", "png", "tif", "bmp", "gif"],
+    "comprimido": ["zip", "rar", "7z"],
+    "temporal": ["bak", "dwl", "dwl2", "sv$", "tmp", "err", "log", "old", "orig"],
+    "sistema": ["db", "ini", "lnk", "url", "ds_store", "dat"]
+  },
+  "alcance": {
+    "cad": "migrar",
+    "pdf": "migrar",
+    "ofimatica": "migrar",
+    "imagen": "revisar",
+    "comprimido": "revisar",
+    "temporal": "descartar",
+    "sistema": "descartar",
+    "otro": "revisar"
+  },
+  "firmas": [
+    {"tipo": "dwg", "hex": "41433130"},
+    {"tipo": "pdf", "hex": "25504446"},
+    {"tipo": "zip", "hex": "504b0304"},
+    {"tipo": "doc", "hex": "d0cf11e0a1b11ae1"},
+    {"tipo": "png", "hex": "89504e470d0a1a0a"},
+    {"tipo": "jpg", "hex": "ffd8ff"},
+    {"tipo": "tif", "hex": "49492a00"},
+    {"tipo": "tif", "hex": "4d4d002a"}
+  ]
+}

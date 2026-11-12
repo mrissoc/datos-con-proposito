@@ -1,0 +1,559 @@
+﻿fecha,pais,gerencia,asignados,completados,vencidos
+2026-10-13,Argentina,Comercial,27,19,2
+2026-10-13,Argentina,Finanzas,26,13,6
+2026-10-13,Argentina,Gerencia general,7,3,0
+2026-10-13,Argentina,Operaciones,21,16,3
+2026-10-13,Argentina,Personas,28,17,6
+2026-10-13,Argentina,Tecnología,23,12,5
+2026-10-13,Chile,Comercial,77,48,13
+2026-10-13,Chile,Finanzas,75,51,11
+2026-10-13,Chile,Gerencia general,7,5,0
+2026-10-13,Chile,Operaciones,84,52,11
+2026-10-13,Chile,Personas,84,50,15
+2026-10-13,Chile,Tecnología,80,58,7
+2026-10-13,México,Comercial,31,15,7
+2026-10-13,México,Finanzas,30,22,2
+2026-10-13,México,Gerencia general,7,5,1
+2026-10-13,México,Operaciones,34,26,3
+2026-10-13,México,Personas,34,22,6
+2026-10-13,México,Tecnología,36,29,4
+2026-10-14,Argentina,Comercial,27,19,2
+2026-10-14,Argentina,Finanzas,26,13,6
+2026-10-14,Argentina,Gerencia general,7,4,0
+2026-10-14,Argentina,Operaciones,21,16,3
+2026-10-14,Argentina,Personas,28,18,6
+2026-10-14,Argentina,Tecnología,23,13,5
+2026-10-14,Chile,Comercial,77,49,14
+2026-10-14,Chile,Finanzas,75,53,10
+2026-10-14,Chile,Gerencia general,7,5,0
+2026-10-14,Chile,Operaciones,84,52,11
+2026-10-14,Chile,Personas,84,51,15
+2026-10-14,Chile,Tecnología,80,60,6
+2026-10-14,México,Comercial,31,15,7
+2026-10-14,México,Finanzas,30,22,2
+2026-10-14,México,Gerencia general,7,5,1
+2026-10-14,México,Operaciones,34,26,3
+2026-10-14,México,Personas,34,23,6
+2026-10-14,México,Tecnología,36,29,4
+2026-10-15,Argentina,Comercial,27,19,2
+2026-10-15,Argentina,Finanzas,26,14,6
+2026-10-15,Argentina,Gerencia general,7,4,0
+2026-10-15,Argentina,Operaciones,21,16,3
+2026-10-15,Argentina,Personas,28,18,6
+2026-10-15,Argentina,Tecnología,23,15,4
+2026-10-15,Chile,Comercial,77,49,15
+2026-10-15,Chile,Finanzas,75,53,10
+2026-10-15,Chile,Gerencia general,7,5,0
+2026-10-15,Chile,Operaciones,84,54,9
+2026-10-15,Chile,Personas,84,52,15
+2026-10-15,Chile,Tecnología,80,60,7
+2026-10-15,México,Comercial,31,17,6
+2026-10-15,México,Finanzas,30,23,1
+2026-10-15,México,Gerencia general,7,5,1
+2026-10-15,México,Operaciones,34,27,3
+2026-10-15,México,Personas,34,24,6
+2026-10-15,México,Tecnología,36,29,4
+2026-10-16,Argentina,Comercial,27,20,2
+2026-10-16,Argentina,Finanzas,26,16,6
+2026-10-16,Argentina,Gerencia general,7,4,0
+2026-10-16,Argentina,Operaciones,21,16,3
+2026-10-16,Argentina,Personas,28,18,6
+2026-10-16,Argentina,Tecnología,23,15,4
+2026-10-16,Chile,Comercial,77,49,15
+2026-10-16,Chile,Finanzas,75,54,10
+2026-10-16,Chile,Gerencia general,7,5,0
+2026-10-16,Chile,Operaciones,84,55,10
+2026-10-16,Chile,Personas,84,53,15
+2026-10-16,Chile,Tecnología,80,60,7
+2026-10-16,México,Comercial,31,17,6
+2026-10-16,México,Finanzas,30,23,1
+2026-10-16,México,Gerencia general,7,5,1
+2026-10-16,México,Operaciones,34,27,3
+2026-10-16,México,Personas,34,24,6
+2026-10-16,México,Tecnología,36,29,4
+2026-10-17,Argentina,Comercial,27,20,2
+2026-10-17,Argentina,Finanzas,26,17,5
+2026-10-17,Argentina,Gerencia general,7,4,0
+2026-10-17,Argentina,Operaciones,21,17,2
+2026-10-17,Argentina,Personas,28,19,5
+2026-10-17,Argentina,Tecnología,23,15,4
+2026-10-17,Chile,Comercial,77,53,12
+2026-10-17,Chile,Finanzas,75,55,10
+2026-10-17,Chile,Gerencia general,7,5,0
+2026-10-17,Chile,Operaciones,84,55,10
+2026-10-17,Chile,Personas,84,54,15
+2026-10-17,Chile,Tecnología,80,62,7
+2026-10-17,México,Comercial,31,19,5
+2026-10-17,México,Finanzas,30,23,1
+2026-10-17,México,Gerencia general,7,5,1
+2026-10-17,México,Operaciones,34,27,3
+2026-10-17,México,Personas,34,24,6
+2026-10-17,México,Tecnología,36,30,4
+2026-10-18,Argentina,Comercial,27,21,2
+2026-10-18,Argentina,Finanzas,26,17,5
+2026-10-18,Argentina,Gerencia general,7,4,0
+2026-10-18,Argentina,Operaciones,21,17,2
+2026-10-18,Argentina,Personas,28,19,5
+2026-10-18,Argentina,Tecnología,23,15,4
+2026-10-18,Chile,Comercial,77,54,13
+2026-10-18,Chile,Finanzas,75,55,11
+2026-10-18,Chile,Gerencia general,7,5,0
+2026-10-18,Chile,Operaciones,84,56,9
+2026-10-18,Chile,Personas,84,55,15
+2026-10-18,Chile,Tecnología,80,62,7
+2026-10-18,México,Comercial,31,19,5
+2026-10-18,México,Finanzas,30,23,1
+2026-10-18,México,Gerencia general,7,5,1
+2026-10-18,México,Operaciones,34,27,3
+2026-10-18,México,Personas,34,24,6
+2026-10-18,México,Tecnología,36,30,4
+2026-10-19,Argentina,Comercial,27,21,2
+2026-10-19,Argentina,Finanzas,26,17,5
+2026-10-19,Argentina,Gerencia general,7,4,0
+2026-10-19,Argentina,Operaciones,21,17,2
+2026-10-19,Argentina,Personas,28,19,6
+2026-10-19,Argentina,Tecnología,23,15,5
+2026-10-19,Chile,Comercial,77,54,13
+2026-10-19,Chile,Finanzas,75,55,11
+2026-10-19,Chile,Gerencia general,7,5,0
+2026-10-19,Chile,Operaciones,84,57,10
+2026-10-19,Chile,Personas,84,55,15
+2026-10-19,Chile,Tecnología,80,62,7
+2026-10-19,México,Comercial,31,20,5
+2026-10-19,México,Finanzas,30,23,1
+2026-10-19,México,Gerencia general,7,5,1
+2026-10-19,México,Operaciones,34,27,3
+2026-10-19,México,Personas,34,24,6
+2026-10-19,México,Tecnología,36,30,4
+2026-10-20,Argentina,Comercial,27,21,2
+2026-10-20,Argentina,Finanzas,26,18,5
+2026-10-20,Argentina,Gerencia general,7,4,0
+2026-10-20,Argentina,Operaciones,21,17,2
+2026-10-20,Argentina,Personas,28,20,5
+2026-10-20,Argentina,Tecnología,23,15,5
+2026-10-20,Chile,Comercial,77,54,13
+2026-10-20,Chile,Finanzas,75,55,11
+2026-10-20,Chile,Gerencia general,7,5,0
+2026-10-20,Chile,Operaciones,84,58,9
+2026-10-20,Chile,Personas,84,55,15
+2026-10-20,Chile,Tecnología,80,63,7
+2026-10-20,México,Comercial,31,20,5
+2026-10-20,México,Finanzas,30,23,1
+2026-10-20,México,Gerencia general,7,5,1
+2026-10-20,México,Operaciones,34,27,3
+2026-10-20,México,Personas,34,24,6
+2026-10-20,México,Tecnología,36,30,4
+2026-10-21,Argentina,Comercial,27,21,2
+2026-10-21,Argentina,Finanzas,26,18,5
+2026-10-21,Argentina,Gerencia general,7,4,0
+2026-10-21,Argentina,Operaciones,21,18,2
+2026-10-21,Argentina,Personas,28,20,5
+2026-10-21,Argentina,Tecnología,23,16,5
+2026-10-21,Chile,Comercial,77,54,13
+2026-10-21,Chile,Finanzas,75,56,10
+2026-10-21,Chile,Gerencia general,7,6,1
+2026-10-21,Chile,Operaciones,84,58,9
+2026-10-21,Chile,Personas,84,56,15
+2026-10-21,Chile,Tecnología,80,63,7
+2026-10-21,México,Comercial,31,21,4
+2026-10-21,México,Finanzas,30,24,1
+2026-10-21,México,Gerencia general,7,5,1
+2026-10-21,México,Operaciones,34,27,3
+2026-10-21,México,Personas,34,24,6
+2026-10-21,México,Tecnología,36,31,4
+2026-10-22,Argentina,Comercial,27,21,2
+2026-10-22,Argentina,Finanzas,26,18,5
+2026-10-22,Argentina,Gerencia general,7,4,0
+2026-10-22,Argentina,Operaciones,21,19,2
+2026-10-22,Argentina,Personas,28,20,5
+2026-10-22,Argentina,Tecnología,23,16,5
+2026-10-22,Chile,Comercial,77,54,13
+2026-10-22,Chile,Finanzas,75,56,10
+2026-10-22,Chile,Gerencia general,7,6,1
+2026-10-22,Chile,Operaciones,84,60,9
+2026-10-22,Chile,Personas,84,58,13
+2026-10-22,Chile,Tecnología,80,64,7
+2026-10-22,México,Comercial,31,21,4
+2026-10-22,México,Finanzas,30,24,1
+2026-10-22,México,Gerencia general,7,5,1
+2026-10-22,México,Operaciones,34,29,2
+2026-10-22,México,Personas,34,24,6
+2026-10-22,México,Tecnología,36,31,4
+2026-10-23,Argentina,Comercial,27,21,2
+2026-10-23,Argentina,Finanzas,26,18,5
+2026-10-23,Argentina,Gerencia general,7,4,0
+2026-10-23,Argentina,Operaciones,21,19,2
+2026-10-23,Argentina,Personas,28,21,4
+2026-10-23,Argentina,Tecnología,23,17,4
+2026-10-23,Chile,Comercial,77,54,14
+2026-10-23,Chile,Finanzas,75,57,10
+2026-10-23,Chile,Gerencia general,7,6,1
+2026-10-23,Chile,Operaciones,84,64,8
+2026-10-23,Chile,Personas,84,58,13
+2026-10-23,Chile,Tecnología,80,65,7
+2026-10-23,México,Comercial,31,21,4
+2026-10-23,México,Finanzas,30,24,1
+2026-10-23,México,Gerencia general,7,5,1
+2026-10-23,México,Operaciones,34,29,2
+2026-10-23,México,Personas,34,25,5
+2026-10-23,México,Tecnología,36,31,4
+2026-10-24,Argentina,Comercial,27,21,2
+2026-10-24,Argentina,Finanzas,26,18,5
+2026-10-24,Argentina,Gerencia general,7,4,0
+2026-10-24,Argentina,Operaciones,21,19,2
+2026-10-24,Argentina,Personas,28,21,4
+2026-10-24,Argentina,Tecnología,23,17,4
+2026-10-24,Chile,Comercial,77,56,14
+2026-10-24,Chile,Finanzas,75,58,10
+2026-10-24,Chile,Gerencia general,7,6,1
+2026-10-24,Chile,Operaciones,84,64,8
+2026-10-24,Chile,Personas,84,58,13
+2026-10-24,Chile,Tecnología,80,65,7
+2026-10-24,México,Comercial,31,21,4
+2026-10-24,México,Finanzas,30,24,1
+2026-10-24,México,Gerencia general,7,5,1
+2026-10-24,México,Operaciones,34,29,2
+2026-10-24,México,Personas,34,26,4
+2026-10-24,México,Tecnología,36,31,4
+2026-10-25,Argentina,Comercial,27,21,2
+2026-10-25,Argentina,Finanzas,26,18,6
+2026-10-25,Argentina,Gerencia general,7,4,0
+2026-10-25,Argentina,Operaciones,21,20,1
+2026-10-25,Argentina,Personas,28,21,4
+2026-10-25,Argentina,Tecnología,23,17,4
+2026-10-25,Chile,Comercial,77,56,14
+2026-10-25,Chile,Finanzas,75,58,10
+2026-10-25,Chile,Gerencia general,7,6,1
+2026-10-25,Chile,Operaciones,84,64,8
+2026-10-25,Chile,Personas,84,59,13
+2026-10-25,Chile,Tecnología,80,65,8
+2026-10-25,México,Comercial,31,22,4
+2026-10-25,México,Finanzas,30,24,1
+2026-10-25,México,Gerencia general,7,5,1
+2026-10-25,México,Operaciones,34,29,2
+2026-10-25,México,Personas,34,26,4
+2026-10-25,México,Tecnología,36,31,4
+2026-10-26,Argentina,Comercial,27,21,2
+2026-10-26,Argentina,Finanzas,26,18,6
+2026-10-26,Argentina,Gerencia general,7,4,0
+2026-10-26,Argentina,Operaciones,21,20,1
+2026-10-26,Argentina,Personas,28,21,4
+2026-10-26,Argentina,Tecnología,23,17,4
+2026-10-26,Chile,Comercial,77,58,13
+2026-10-26,Chile,Finanzas,75,59,10
+2026-10-26,Chile,Gerencia general,7,6,1
+2026-10-26,Chile,Operaciones,84,64,8
+2026-10-26,Chile,Personas,84,60,13
+2026-10-26,Chile,Tecnología,80,67,6
+2026-10-26,México,Comercial,31,23,4
+2026-10-26,México,Finanzas,30,24,2
+2026-10-26,México,Gerencia general,7,5,1
+2026-10-26,México,Operaciones,34,29,2
+2026-10-26,México,Personas,34,26,4
+2026-10-26,México,Tecnología,36,31,4
+2026-10-27,Argentina,Comercial,27,21,2
+2026-10-27,Argentina,Finanzas,26,18,6
+2026-10-27,Argentina,Gerencia general,7,4,0
+2026-10-27,Argentina,Operaciones,21,20,1
+2026-10-27,Argentina,Personas,28,22,4
+2026-10-27,Argentina,Tecnología,23,18,4
+2026-10-27,Chile,Comercial,77,59,13
+2026-10-27,Chile,Finanzas,75,59,10
+2026-10-27,Chile,Gerencia general,7,6,1
+2026-10-27,Chile,Operaciones,84,67,7
+2026-10-27,Chile,Personas,84,60,13
+2026-10-27,Chile,Tecnología,80,68,5
+2026-10-27,México,Comercial,31,24,4
+2026-10-27,México,Finanzas,30,24,2
+2026-10-27,México,Gerencia general,7,6,0
+2026-10-27,México,Operaciones,34,29,2
+2026-10-27,México,Personas,34,26,4
+2026-10-27,México,Tecnología,36,31,4
+2026-10-28,Argentina,Comercial,27,21,2
+2026-10-28,Argentina,Finanzas,26,19,5
+2026-10-28,Argentina,Gerencia general,7,4,0
+2026-10-28,Argentina,Operaciones,21,20,1
+2026-10-28,Argentina,Personas,28,23,4
+2026-10-28,Argentina,Tecnología,23,18,4
+2026-10-28,Chile,Comercial,77,59,13
+2026-10-28,Chile,Finanzas,75,60,10
+2026-10-28,Chile,Gerencia general,7,6,1
+2026-10-28,Chile,Operaciones,84,67,7
+2026-10-28,Chile,Personas,84,62,12
+2026-10-28,Chile,Tecnología,80,68,6
+2026-10-28,México,Comercial,31,24,4
+2026-10-28,México,Finanzas,30,24,2
+2026-10-28,México,Gerencia general,7,6,0
+2026-10-28,México,Operaciones,34,30,1
+2026-10-28,México,Personas,34,26,5
+2026-10-28,México,Tecnología,36,31,4
+2026-10-29,Argentina,Comercial,27,21,2
+2026-10-29,Argentina,Finanzas,26,19,5
+2026-10-29,Argentina,Gerencia general,7,4,0
+2026-10-29,Argentina,Operaciones,21,20,1
+2026-10-29,Argentina,Personas,28,23,4
+2026-10-29,Argentina,Tecnología,23,18,4
+2026-10-29,Chile,Comercial,77,59,13
+2026-10-29,Chile,Finanzas,75,61,9
+2026-10-29,Chile,Gerencia general,7,6,1
+2026-10-29,Chile,Operaciones,84,67,7
+2026-10-29,Chile,Personas,84,62,12
+2026-10-29,Chile,Tecnología,80,68,6
+2026-10-29,México,Comercial,31,24,5
+2026-10-29,México,Finanzas,30,25,1
+2026-10-29,México,Gerencia general,7,6,0
+2026-10-29,México,Operaciones,34,30,1
+2026-10-29,México,Personas,34,26,5
+2026-10-29,México,Tecnología,36,32,3
+2026-10-30,Argentina,Comercial,27,21,2
+2026-10-30,Argentina,Finanzas,26,19,5
+2026-10-30,Argentina,Gerencia general,7,4,0
+2026-10-30,Argentina,Operaciones,21,20,1
+2026-10-30,Argentina,Personas,28,23,4
+2026-10-30,Argentina,Tecnología,23,19,3
+2026-10-30,Chile,Comercial,77,60,13
+2026-10-30,Chile,Finanzas,75,61,9
+2026-10-30,Chile,Gerencia general,7,6,1
+2026-10-30,Chile,Operaciones,84,67,7
+2026-10-30,Chile,Personas,84,63,12
+2026-10-30,Chile,Tecnología,80,68,7
+2026-10-30,México,Comercial,31,25,4
+2026-10-30,México,Finanzas,30,26,1
+2026-10-30,México,Gerencia general,7,6,0
+2026-10-30,México,Operaciones,34,30,1
+2026-10-30,México,Personas,34,26,6
+2026-10-30,México,Tecnología,36,32,3
+2026-10-31,Argentina,Comercial,27,22,3
+2026-10-31,Argentina,Finanzas,26,19,6
+2026-10-31,Argentina,Gerencia general,7,5,0
+2026-10-31,Argentina,Operaciones,21,20,1
+2026-10-31,Argentina,Personas,28,24,4
+2026-10-31,Argentina,Tecnología,23,19,3
+2026-10-31,Chile,Comercial,77,62,12
+2026-10-31,Chile,Finanzas,75,62,8
+2026-10-31,Chile,Gerencia general,7,6,1
+2026-10-31,Chile,Operaciones,84,67,7
+2026-10-31,Chile,Personas,84,63,12
+2026-10-31,Chile,Tecnología,80,68,7
+2026-10-31,México,Comercial,31,25,4
+2026-10-31,México,Finanzas,30,26,1
+2026-10-31,México,Gerencia general,7,6,0
+2026-10-31,México,Operaciones,34,31,1
+2026-10-31,México,Personas,34,26,6
+2026-10-31,México,Tecnología,36,32,3
+2026-11-01,Argentina,Comercial,27,22,3
+2026-11-01,Argentina,Finanzas,26,19,6
+2026-11-01,Argentina,Gerencia general,7,5,0
+2026-11-01,Argentina,Operaciones,21,20,1
+2026-11-01,Argentina,Personas,28,24,4
+2026-11-01,Argentina,Tecnología,23,19,3
+2026-11-01,Chile,Comercial,77,63,11
+2026-11-01,Chile,Finanzas,75,63,7
+2026-11-01,Chile,Gerencia general,7,6,1
+2026-11-01,Chile,Operaciones,84,67,7
+2026-11-01,Chile,Personas,84,63,12
+2026-11-01,Chile,Tecnología,80,68,7
+2026-11-01,México,Comercial,31,25,4
+2026-11-01,México,Finanzas,30,26,1
+2026-11-01,México,Gerencia general,7,6,0
+2026-11-01,México,Operaciones,34,32,2
+2026-11-01,México,Personas,34,26,6
+2026-11-01,México,Tecnología,36,32,3
+2026-11-02,Argentina,Comercial,27,22,3
+2026-11-02,Argentina,Finanzas,26,19,6
+2026-11-02,Argentina,Gerencia general,7,5,0
+2026-11-02,Argentina,Operaciones,21,21,0
+2026-11-02,Argentina,Personas,28,24,4
+2026-11-02,Argentina,Tecnología,23,19,3
+2026-11-02,Chile,Comercial,77,63,11
+2026-11-02,Chile,Finanzas,75,64,6
+2026-11-02,Chile,Gerencia general,7,6,1
+2026-11-02,Chile,Operaciones,84,67,7
+2026-11-02,Chile,Personas,84,63,13
+2026-11-02,Chile,Tecnología,80,68,7
+2026-11-02,México,Comercial,31,25,6
+2026-11-02,México,Finanzas,30,26,1
+2026-11-02,México,Gerencia general,7,7,0
+2026-11-02,México,Operaciones,34,32,2
+2026-11-02,México,Personas,34,26,6
+2026-11-02,México,Tecnología,36,32,3
+2026-11-03,Argentina,Comercial,27,22,3
+2026-11-03,Argentina,Finanzas,26,19,6
+2026-11-03,Argentina,Gerencia general,7,6,0
+2026-11-03,Argentina,Operaciones,21,21,0
+2026-11-03,Argentina,Personas,28,24,4
+2026-11-03,Argentina,Tecnología,23,19,3
+2026-11-03,Chile,Comercial,77,66,9
+2026-11-03,Chile,Finanzas,75,64,6
+2026-11-03,Chile,Gerencia general,7,6,1
+2026-11-03,Chile,Operaciones,84,68,6
+2026-11-03,Chile,Personas,84,63,13
+2026-11-03,Chile,Tecnología,80,68,7
+2026-11-03,México,Comercial,31,25,6
+2026-11-03,México,Finanzas,30,26,1
+2026-11-03,México,Gerencia general,7,7,0
+2026-11-03,México,Operaciones,34,32,2
+2026-11-03,México,Personas,34,26,6
+2026-11-03,México,Tecnología,36,33,3
+2026-11-04,Argentina,Comercial,27,22,3
+2026-11-04,Argentina,Finanzas,26,19,6
+2026-11-04,Argentina,Gerencia general,7,6,0
+2026-11-04,Argentina,Operaciones,21,21,0
+2026-11-04,Argentina,Personas,28,25,3
+2026-11-04,Argentina,Tecnología,23,19,3
+2026-11-04,Chile,Comercial,77,66,9
+2026-11-04,Chile,Finanzas,75,64,6
+2026-11-04,Chile,Gerencia general,7,6,1
+2026-11-04,Chile,Operaciones,84,71,6
+2026-11-04,Chile,Personas,84,63,14
+2026-11-04,Chile,Tecnología,80,69,6
+2026-11-04,México,Comercial,31,25,6
+2026-11-04,México,Finanzas,30,26,1
+2026-11-04,México,Gerencia general,7,7,0
+2026-11-04,México,Operaciones,34,32,2
+2026-11-04,México,Personas,34,27,5
+2026-11-04,México,Tecnología,36,33,3
+2026-11-05,Argentina,Comercial,27,22,3
+2026-11-05,Argentina,Finanzas,26,20,5
+2026-11-05,Argentina,Gerencia general,7,6,0
+2026-11-05,Argentina,Operaciones,21,21,0
+2026-11-05,Argentina,Personas,28,25,3
+2026-11-05,Argentina,Tecnología,23,19,3
+2026-11-05,Chile,Comercial,77,66,9
+2026-11-05,Chile,Finanzas,75,64,6
+2026-11-05,Chile,Gerencia general,7,6,1
+2026-11-05,Chile,Operaciones,84,72,5
+2026-11-05,Chile,Personas,84,63,14
+2026-11-05,Chile,Tecnología,80,69,7
+2026-11-05,México,Comercial,31,25,6
+2026-11-05,México,Finanzas,30,26,1
+2026-11-05,México,Gerencia general,7,7,0
+2026-11-05,México,Operaciones,34,32,2
+2026-11-05,México,Personas,34,27,5
+2026-11-05,México,Tecnología,36,33,3
+2026-11-06,Argentina,Comercial,27,22,3
+2026-11-06,Argentina,Finanzas,26,20,5
+2026-11-06,Argentina,Gerencia general,7,6,0
+2026-11-06,Argentina,Operaciones,21,21,0
+2026-11-06,Argentina,Personas,28,25,3
+2026-11-06,Argentina,Tecnología,23,19,3
+2026-11-06,Chile,Comercial,77,66,9
+2026-11-06,Chile,Finanzas,75,65,6
+2026-11-06,Chile,Gerencia general,7,6,1
+2026-11-06,Chile,Operaciones,84,73,4
+2026-11-06,Chile,Personas,84,64,14
+2026-11-06,Chile,Tecnología,80,70,6
+2026-11-06,México,Comercial,31,26,5
+2026-11-06,México,Finanzas,30,26,1
+2026-11-06,México,Gerencia general,7,7,0
+2026-11-06,México,Operaciones,34,32,2
+2026-11-06,México,Personas,34,27,5
+2026-11-06,México,Tecnología,36,33,3
+2026-11-07,Argentina,Comercial,27,22,3
+2026-11-07,Argentina,Finanzas,26,22,3
+2026-11-07,Argentina,Gerencia general,7,6,0
+2026-11-07,Argentina,Operaciones,21,21,0
+2026-11-07,Argentina,Personas,28,25,3
+2026-11-07,Argentina,Tecnología,23,19,3
+2026-11-07,Chile,Comercial,77,66,9
+2026-11-07,Chile,Finanzas,75,66,6
+2026-11-07,Chile,Gerencia general,7,6,1
+2026-11-07,Chile,Operaciones,84,74,3
+2026-11-07,Chile,Personas,84,64,14
+2026-11-07,Chile,Tecnología,80,71,5
+2026-11-07,México,Comercial,31,26,5
+2026-11-07,México,Finanzas,30,26,1
+2026-11-07,México,Gerencia general,7,7,0
+2026-11-07,México,Operaciones,34,33,1
+2026-11-07,México,Personas,34,28,4
+2026-11-07,México,Tecnología,36,33,3
+2026-11-08,Argentina,Comercial,27,22,3
+2026-11-08,Argentina,Finanzas,26,22,3
+2026-11-08,Argentina,Gerencia general,7,6,0
+2026-11-08,Argentina,Operaciones,21,21,0
+2026-11-08,Argentina,Personas,28,25,3
+2026-11-08,Argentina,Tecnología,23,20,2
+2026-11-08,Chile,Comercial,77,66,10
+2026-11-08,Chile,Finanzas,75,66,6
+2026-11-08,Chile,Gerencia general,7,6,1
+2026-11-08,Chile,Operaciones,84,74,3
+2026-11-08,Chile,Personas,84,64,14
+2026-11-08,Chile,Tecnología,80,71,5
+2026-11-08,México,Comercial,31,26,5
+2026-11-08,México,Finanzas,30,26,1
+2026-11-08,México,Gerencia general,7,7,0
+2026-11-08,México,Operaciones,34,33,1
+2026-11-08,México,Personas,34,28,4
+2026-11-08,México,Tecnología,36,34,2
+2026-11-09,Argentina,Comercial,27,22,3
+2026-11-09,Argentina,Finanzas,26,22,4
+2026-11-09,Argentina,Gerencia general,7,6,0
+2026-11-09,Argentina,Operaciones,21,21,0
+2026-11-09,Argentina,Personas,28,25,3
+2026-11-09,Argentina,Tecnología,23,20,2
+2026-11-09,Chile,Comercial,77,67,9
+2026-11-09,Chile,Finanzas,75,66,6
+2026-11-09,Chile,Gerencia general,7,6,1
+2026-11-09,Chile,Operaciones,84,74,3
+2026-11-09,Chile,Personas,84,65,13
+2026-11-09,Chile,Tecnología,80,71,5
+2026-11-09,México,Comercial,31,26,5
+2026-11-09,México,Finanzas,30,26,1
+2026-11-09,México,Gerencia general,7,7,0
+2026-11-09,México,Operaciones,34,33,1
+2026-11-09,México,Personas,34,28,4
+2026-11-09,México,Tecnología,36,35,1
+2026-11-10,Argentina,Comercial,27,22,3
+2026-11-10,Argentina,Finanzas,26,22,4
+2026-11-10,Argentina,Gerencia general,7,6,0
+2026-11-10,Argentina,Operaciones,21,21,0
+2026-11-10,Argentina,Personas,28,25,3
+2026-11-10,Argentina,Tecnología,23,20,2
+2026-11-10,Chile,Comercial,77,68,8
+2026-11-10,Chile,Finanzas,75,67,5
+2026-11-10,Chile,Gerencia general,7,6,1
+2026-11-10,Chile,Operaciones,84,74,3
+2026-11-10,Chile,Personas,84,65,14
+2026-11-10,Chile,Tecnología,80,71,5
+2026-11-10,México,Comercial,31,26,5
+2026-11-10,México,Finanzas,30,26,1
+2026-11-10,México,Gerencia general,7,7,0
+2026-11-10,México,Operaciones,34,33,1
+2026-11-10,México,Personas,34,28,4
+2026-11-10,México,Tecnología,36,35,1
+2026-11-11,Argentina,Comercial,27,22,3
+2026-11-11,Argentina,Finanzas,26,22,4
+2026-11-11,Argentina,Gerencia general,7,6,0
+2026-11-11,Argentina,Operaciones,21,21,0
+2026-11-11,Argentina,Personas,28,25,3
+2026-11-11,Argentina,Tecnología,23,21,1
+2026-11-11,Chile,Comercial,77,68,8
+2026-11-11,Chile,Finanzas,75,67,5
+2026-11-11,Chile,Gerencia general,7,6,1
+2026-11-11,Chile,Operaciones,84,74,3
+2026-11-11,Chile,Personas,84,68,11
+2026-11-11,Chile,Tecnología,80,74,2
+2026-11-11,México,Comercial,31,27,4
+2026-11-11,México,Finanzas,30,26,1
+2026-11-11,México,Gerencia general,7,7,0
+2026-11-11,México,Operaciones,34,33,1
+2026-11-11,México,Personas,34,28,4
+2026-11-11,México,Tecnología,36,35,1
+2026-11-12,Argentina,Comercial,27,23,2
+2026-11-12,Argentina,Finanzas,26,22,4
+2026-11-12,Argentina,Gerencia general,7,6,0
+2026-11-12,Argentina,Operaciones,21,21,0
+2026-11-12,Argentina,Personas,28,25,3
+2026-11-12,Argentina,Tecnología,23,21,1
+2026-11-12,Chile,Comercial,77,68,8
+2026-11-12,Chile,Finanzas,75,68,5
+2026-11-12,Chile,Gerencia general,7,6,1
+2026-11-12,Chile,Operaciones,84,74,3
+2026-11-12,Chile,Personas,84,68,11
+2026-11-12,Chile,Tecnología,80,74,3
+2026-11-12,México,Comercial,31,27,4
+2026-11-12,México,Finanzas,30,26,1
+2026-11-12,México,Gerencia general,7,7,0
+2026-11-12,México,Operaciones,34,33,1
+2026-11-12,México,Personas,34,28,4
+2026-11-12,México,Tecnología,36,35,1

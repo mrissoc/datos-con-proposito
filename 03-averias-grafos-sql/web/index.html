@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Averías en la red de activos</title>
+  <meta name="description" content="Registro de averías y análisis de impacto sobre una red modelada como grafo en SQL.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M6 9h20M6 23h20M16 9v14' fill='none' stroke='%232a78d6' stroke-width='2.5'/%3E%3Cg fill='%232a78d6'%3E%3Ccircle cx='6' cy='9' r='4'/%3E%3Ccircle cx='26' cy='9' r='4'/%3E%3Ccircle cx='6' cy='23' r='4'/%3E%3Ccircle cx='26' cy='23' r='4'/%3E%3Ccircle cx='16' cy='16' r='4'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="barra">
+    <div class="marca">
+      <svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true">
+        <path d="M6 9h20M6 23h20M16 9v14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="6" cy="9" r="3.2"/><circle cx="26" cy="9" r="3.2"/>
+        <circle cx="6" cy="23" r="3.2"/><circle cx="26" cy="23" r="3.2"/><circle cx="16" cy="16" r="3.2"/>
+      </svg>
+      <div>
+        <h1>Averías en la red</h1>
+        <p>Red de agua potable de ejemplo, con datos ficticios</p>
+      </div>
+    </div>
+    <div class="barra-derecha">
+      <span id="modo" class="chip" hidden></span>
+      <span id="usuario" class="usuario"></span>
+    </div>
+  </header>
+
+  <main>
+    <p id="aviso" class="aviso" role="status" hidden></p>
+
+    <section id="indicadores" class="indicadores" aria-label="Estado actual de la red"></section>
+
+    <div class="columnas">
+      <section class="tarjeta" aria-labelledby="titulo-mapa">
+        <div class="tarjeta-cabecera">
+          <div>
+            <h2 id="titulo-mapa">Esquema de la red</h2>
+            <p class="ayuda">Selecciona un nodo o un tramo para ver su detalle, simular su falla o registrar una avería.</p>
+          </div>
+          <button id="quitar-resaltado" class="boton secundario" hidden>Quitar resaltado</button>
+        </div>
+        <div id="mapa" class="mapa"></div>
+        <div id="leyenda" class="leyenda"></div>
+        <details class="plegable">
+          <summary>Ver la red como tabla</summary>
+          <div id="tabla-red" class="tabla-contenedor"></div>
+        </details>
+      </section>
+
+      <section class="tarjeta panel" aria-label="Detalle">
+        <div class="pestanas" role="tablist" aria-label="Vistas">
+          <button role="tab" id="tab-averias" aria-controls="vista-averias" aria-selected="true">Averías activas</button>
+          <button role="tab" id="tab-elemento" aria-controls="vista-elemento" aria-selected="false">Elemento</button>
+          <button role="tab" id="tab-criticidad" aria-controls="vista-criticidad" aria-selected="false">Criticidad</button>
+          <button role="tab" id="tab-estadisticas" aria-controls="vista-estadisticas" aria-selected="false">Estadísticas</button>
+        </div>
+        <div id="vista-averias" role="tabpanel" aria-labelledby="tab-averias" class="vista"></div>
+        <div id="vista-elemento" role="tabpanel" aria-labelledby="tab-elemento" class="vista" hidden></div>
+        <div id="vista-criticidad" role="tabpanel" aria-labelledby="tab-criticidad" class="vista" hidden></div>
+        <div id="vista-estadisticas" role="tabpanel" aria-labelledby="tab-estadisticas" class="vista" hidden></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="pie">
+    Cada vista se calcula con una consulta SQL sobre el grafo de nodos y arcos.
+    Usa el enlace <strong>Ver consulta SQL</strong> de cada vista para leerla.
+  </footer>
+
+  <div id="tooltip" class="tooltip" role="tooltip" hidden></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

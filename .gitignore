@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+~$*
+
+# Bases y salidas que cada proyecto genera al ejecutarse
+*.db
+*.db-journal
+!03-averias-grafos-sql/datos/averias_demo.db
+01-pipeline-documental-ia/_demo/
+05-correos-masivos-graph/salida/

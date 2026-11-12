@@ -1,0 +1,43 @@
+{
+  "descripcion": "Taxonomía documental de ejemplo. Define cómo se clasifica y dónde queda cada archivo en la biblioteca de destino.",
+  "disciplinas": [
+    {"codigo": "CIV", "nombre": "Obras civiles", "alias": ["C", "CI", "CIV", "CIVIL"]},
+    {"codigo": "EST", "nombre": "Estructuras", "alias": ["S", "ES", "EST", "ESTR"]},
+    {"codigo": "HID", "nombre": "Hidráulica y tuberías", "alias": ["H", "HI", "HID", "PIP"]},
+    {"codigo": "MEC", "nombre": "Mecánica", "alias": ["M", "ME", "MEC"]},
+    {"codigo": "ELE", "nombre": "Eléctrica", "alias": ["E", "EL", "ELE", "ELEC"]},
+    {"codigo": "INS", "nombre": "Instrumentación y control", "alias": ["I", "IN", "INS", "IC"]},
+    {"codigo": "ARQ", "nombre": "Arquitectura", "alias": ["A", "AR", "ARQ"]},
+    {"codigo": "TOP", "nombre": "Topografía", "alias": ["T", "TO", "TOP"]}
+  ],
+  "tipos_plano": [
+    {"codigo": "PG", "nombre": "Planta general", "palabras": ["planta general", "disposición general", "emplazamiento", "levantamiento"]},
+    {"codigo": "PL", "nombre": "Planta", "palabras": ["planta"]},
+    {"codigo": "CE", "nombre": "Cortes y elevaciones", "palabras": ["corte", "cortes", "elevación", "elevaciones", "perfil", "perfiles"]},
+    {"codigo": "DE", "nombre": "Detalles", "palabras": ["detalle", "detalles"]},
+    {"codigo": "DU", "nombre": "Diagrama unilineal", "palabras": ["unilineal"]},
+    {"codigo": "PI", "nombre": "Diagrama de tuberías e instrumentación", "palabras": ["p&id", "tuberías e instrumentación"]},
+    {"codigo": "IS", "nombre": "Isométrico", "palabras": ["isométrico", "isométrica"]},
+    {"codigo": "EC", "nombre": "Esquema de control", "palabras": ["esquema de control", "lazo de control", "lazos de control", "conexionado"]}
+  ],
+  "tipos_documento": [
+    {"codigo": "ET", "nombre": "Especificación técnica"},
+    {"codigo": "MC", "nombre": "Memoria de cálculo"},
+    {"codigo": "INF", "nombre": "Informe"},
+    {"codigo": "MAN", "nombre": "Manual de operación y mantenimiento"},
+    {"codigo": "PRO", "nombre": "Procedimiento"},
+    {"codigo": "ACT", "nombre": "Acta"}
+  ],
+  "proyectos": [
+    {"codigo": "PRY-006", "nombre": "Estación de Bombeo Norte", "anio": 2009, "instalacion": "EB-01"},
+    {"codigo": "PRY-009", "nombre": "Ampliación Planta de Tratamiento Norte", "anio": 2011, "instalacion": "PTA-01"},
+    {"codigo": "PRY-014", "nombre": "Estanque Cerro Alto", "anio": 2013, "instalacion": "EST-01"},
+    {"codigo": "PRY-017", "nombre": "Estación de Bombeo Sur", "anio": 2015, "instalacion": "EB-02"},
+    {"codigo": "PRY-019", "nombre": "Planta de Tratamiento Sur", "anio": 2016, "instalacion": "PTA-02"},
+    {"codigo": "PRY-021", "nombre": "Estanque Mirador y Bombeo Oriente", "anio": 2018, "instalacion": "EST-03"},
+    {"codigo": "PRY-024", "nombre": "Refuerzo Matriz Centro", "anio": 2020, "instalacion": "UN-02"},
+    {"codigo": "PRY-027", "nombre": "Estanque Las Vertientes", "anio": 2022, "instalacion": "EST-04"},
+    {"codigo": "PRY-030", "nombre": "Automatización y Telemetría", "anio": 2023, "instalacion": "EB-04"},
+    {"codigo": "PRY-033", "nombre": "Renovación Estación de Bombeo Norte", "anio": 2025, "instalacion": "EB-01"}
+  ]
+}
