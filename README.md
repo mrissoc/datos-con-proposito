@@ -1,10 +1,15 @@
-# Portafolio de datos, automatización e IA aplicada
+# Datos con propósito
+
+Portafolio de datos, automatización e IA aplicada.
+
 
 Matías Risso · Ingeniero Civil Industrial y Magíster en Ciencias de la Ingeniería Industrial.
 
 Construyo procesos que ordenan, integran y aprovechan los datos de una organización: pipelines en Python, modelos en SQL, integraciones vía API con Microsoft 365 y sistemas empresariales, tableros en Power BI e inteligencia artificial aplicada a documentos y búsquedas.
 
 Los proyectos de este repositorio son reconstrucciones de trabajo real, hechas con **datos ficticios** para poder mostrarlas. Cada uno se puede ejecutar y tiene pruebas automatizadas: **129 pruebas** en total, que pasan con Python 3.9 y 3.12.
+
+[![Pruebas](https://github.com/mrissoc/datos-con-proposito/actions/workflows/pruebas.yml/badge.svg)](https://github.com/mrissoc/datos-con-proposito/actions/workflows/pruebas.yml)
 
 ## Proyectos
 
