@@ -83,7 +83,7 @@ class ArchivoPlan:
 
 
 def extensiones_raras() -> List[Tuple[str, str]]:
-    """Extensiones poco comunes y el tipo real del archivo: más de 300 distintas."""
+    """Extensiones poco comunes y el tipo real del archivo: cientos de extensiones distintas."""
     raras = [
         ("dwg1", "dwg"), ("dwg_old", "dwg"), ("dw_", "dwg"), ("bak2", "dwg"), ("dwt", "dwg"), ("dws", "dwg"),
         ("pdf1", "pdf"), ("pd_", "pdf"), ("xlsx_", "xlsx"), ("doc_viejo", "doc"), ("msg", "doc"), ("mpp", "doc"),

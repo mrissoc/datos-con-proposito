@@ -23,7 +23,7 @@ Funcionan directo en el navegador, sin instalar nada:
 
 | Proyecto | Qué resuelve | Tecnologías |
 |---|---|---|
-| [Pipeline documental con visión por IA](01-pipeline-documental-ia) | Inventaría, clasifica, deduplica y migra un repositorio heredado de planos, y lee sus cajetines con IA. Probado a escala con 303.000 archivos y 337 extensiones. | Python, SQL, Microsoft Graph, API de Anthropic |
+| [Pipeline documental con visión por IA](01-pipeline-documental-ia) | Inventaría, clasifica, deduplica y migra un repositorio heredado de planos, y lee sus cajetines con IA. Probado a escala con cientos de miles de archivos y cientos de extensiones. | Python, SQL, Microsoft Graph, API de Anthropic |
 | [Biblioteca técnica con búsqueda por IA](02-biblioteca-web) | Encuentra planos y documentos por taxonomía o escribiendo en lenguaje natural. | JavaScript, FastAPI, API de Anthropic |
 | [Averías sobre una red modelada como grafo](03-averias-grafos-sql) | Registra averías y calcula en SQL quién queda sin servicio, qué elementos son críticos y por dónde llega el suministro. Login corporativo con Entra ID. | SQL recursivo, FastAPI, Entra ID |
 | [Integración con SAP por OData](04-integracion-sap) | Crea avisos de mantenimiento en SAP a partir de las averías, sin duplicarlos aunque el proceso se interrumpa. | Python, OData, simulador de SAP Gateway |
@@ -54,7 +54,7 @@ flowchart TB
 
 **Catalogación de planos de ingeniería con IA** (empresa de infraestructura, 2026, en curso)
 
-- Pipeline en Python que clasifica, migra y cataloga cerca de 315.000 planos DXF y DWG alojados en SharePoint, con más de 300 extensiones de archivo distintas en el origen.
+- Pipeline en Python que clasifica, migra y cataloga cientos de miles de planos DXF y DWG alojados en SharePoint, con cientos de extensiones de archivo distintas en el origen.
 - Arquitectura ETL con base de staging: extracción de metadatos, deduplicación por huella, migración a una taxonomía documental definida junto al bibliotecólogo, enriquecimiento de esquema y reintentos ante los límites de la API de Microsoft Graph.
 - Lectura del cajetín de cada plano con visión por IA (API de Anthropic): título, subtítulo, número de plano y otros identificadores.
 - Aplicaciones web integradas con SharePoint para buscar planos, documentos y nodos, organizadas con taxonomía de estilo bibliotecario y con búsqueda asistida por IA.

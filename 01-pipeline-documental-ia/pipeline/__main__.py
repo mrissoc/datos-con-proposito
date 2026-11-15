@@ -5,7 +5,7 @@
     python -m pipeline vision --max 20       lee cajetines con IA (requiere credenciales de Anthropic)
     python -m pipeline reporte               reporte del estado del repositorio
     python -m pipeline evaluar               exactitud contra la verdad del repositorio sintético
-    python -m pipeline escala --archivos 315000   mide las etapas a escala, sin crear archivos
+    python -m pipeline escala --archivos 300000   mide las etapas a escala, sin crear archivos
 
 Cada etapa también se puede ejecutar por separado: inventario, perfilar, clasificar,
 deduplicar, planificar, migrar, catalogo.
@@ -116,7 +116,7 @@ def main() -> None:
     demo.add_argument("--semilla", type=int, default=7)
 
     escala = comandos.add_parser("escala", help="mide el pipeline a escala con metadatos sintéticos")
-    escala.add_argument("--archivos", type=int, default=315000)
+    escala.add_argument("--archivos", type=int, default=300000)
     escala.add_argument("--bd", type=Path, default=DEMO / "escala.db")
     escala.add_argument("--semilla", type=int, default=7)
 

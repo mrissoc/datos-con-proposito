@@ -2,14 +2,14 @@
 
 Proceso en Python para ordenar un repositorio heredado de planos y documentos de ingeniería: inventaría cada archivo, reconoce qué es, detecta copias, lee los cajetines de los planos con visión por IA y migra todo a una biblioteca con una taxonomía documental.
 
-Es la versión de portafolio, con datos sintéticos, de un sistema que diseñé e implementé para catalogar cerca de 315.000 planos alojados en SharePoint.
+Es la versión de portafolio, con datos sintéticos, de un sistema que diseñé e implementé para catalogar cientos de miles de planos alojados en SharePoint.
 
 ## El problema
 
 Un repositorio que creció durante años sin reglas comunes:
 
 - Cada época y cada contratista nombró los archivos a su manera: `PRY-021-ELE-DU-0045-H02-RevB`, `PRY014_EL_0503_1_A`, `CTX-0501-ELE-R1-L2`, `E-0505-B` y también `Plano1.dwg` o `copia de planta final OK.dwg`.
-- Más de 300 extensiones distintas, incluidos archivos sin extensión y nombres con fechas escritas con puntos (`Informe 12.03.2015`).
+- Cientos de extensiones distintas, incluidos archivos sin extensión y nombres con fechas escritas con puntos (`Informe 12.03.2015`).
 - Copias del mismo archivo con otros nombres, en carpetas de respaldo.
 - Varias revisiones de cada plano, sin una marca de cuál está vigente.
 - Ediciones hechas sobre un plano sin emitir una revisión nueva.
@@ -68,14 +68,14 @@ Con el repositorio de demostración (2.164 archivos), comparando contra la verda
 | Archivos con extensión engañosa reconocidos por su firma | 19 de 19 |
 | Campos de plano obtenidos del nombre | 100 % de precisión; el resto queda para la lectura por IA |
 
-A escala, con 303.134 archivos sintéticos y 337 extensiones distintas, en un computador personal:
+A escala, con cientos de miles de archivos sintéticos y cientos de extensiones distintas, en un computador personal:
 
 | Etapa | Tiempo |
 |---|---|
 | Inventario | 48 s |
 | Perfilado | 4 s |
 | Clasificación | 12 s |
-| Copias y revisiones (68.180 copias, 22,5 %) | 21 s |
+| Copias y revisiones (22,5 % de copias) | 21 s |
 | Planificación de la migración | 7 s |
 | Catálogo | 5 s |
 
@@ -96,7 +96,7 @@ python -m pipeline vision --max 20
 python -m pipeline evaluar
 
 # Medición a escala, sin crear archivos
-python -m pipeline escala --archivos 315000
+python -m pipeline escala --archivos 300000
 ```
 
 Para trabajar sobre SharePoint: `--origen sharepoint://<id de la biblioteca>` y las variables `GRAPH_TENANT_ID`, `GRAPH_CLIENT_ID` y `GRAPH_CLIENT_SECRET` de un registro de aplicación con permiso sobre el sitio.
